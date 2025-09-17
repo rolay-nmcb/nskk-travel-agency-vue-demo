@@ -39,6 +39,12 @@ export default defineConfig(({ mode, command }) => {
           // target: 'https://api.wzs.pub/mock/13',
           changeOrigin: true,
           rewrite: (p) => p.replace(/^\/dev-api/, '')
+        },
+        // 添加新的代理规则，将https://rolay-nmcb.github.io/prod-api/register转发到本地8080端口
+        '/prod-api': {
+          target: 'http://127.0.0.1:8080',
+          changeOrigin: true,
+          rewrite: (p) => p.replace(/^\/prod-api/, '')
         }
       }
     },
