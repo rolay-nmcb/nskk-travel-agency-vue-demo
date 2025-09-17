@@ -1,1 +1,0 @@
-import{$ as e}from"./index-CqU5sET7.js";function n(a){return e({url:"/manage/profilesManage/userId/"+a,method:"get"})}function t(a){return e({url:"/manage/profilesManage",method:"post",data:a})}function o(a){return e({url:"/manage/profilesManage",method:"put",data:a})}export{t as a,n as g,o as u};

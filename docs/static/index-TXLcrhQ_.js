@@ -1,0 +1,1 @@
+import{_ as e}from"./index-BGQShNbU.js";import{r as n,j as t,o as c,P as l,B as o}from"./index-Lq3EucIc.js";const m={__name:"index",setup(p){const r=n("/prod-api/doc.html");return(u,s)=>(c(),t(o(e),{src:o(r),"onUpdate:src":s[0]||(s[0]=a=>l(r)?r.value=a:null)},null,8,["src"]))}};export{m as default};
