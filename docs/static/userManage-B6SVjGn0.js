@@ -1,0 +1,1 @@
+import{$ as t}from"./index-CqU5sET7.js";function r(e){return t({url:"/system/user/list",method:"get",params:e})}function a(e){return t({url:"/system/user/",method:"post",data:e})}function u(e){return t({url:"/system/user/",method:"put",data:e})}export{a,r as l,u};
